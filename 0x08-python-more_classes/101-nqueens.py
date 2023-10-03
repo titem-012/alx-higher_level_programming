@@ -125,7 +125,7 @@ def recursive_solve(board, row, queens, solutions):
     return (solutions)
 
 
-if name == "main":
+if __name__== "__main__":
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
